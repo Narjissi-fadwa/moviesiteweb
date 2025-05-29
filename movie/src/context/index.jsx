@@ -60,7 +60,7 @@ const MyProvider = ({ children }) => {
 
 
 
-    return (
+    return (   
         <>
             <MyContext.Provider value={movieData}>
                 {children}
